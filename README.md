@@ -39,9 +39,14 @@
     2) 파일 모듈: 파일 경로로 불러와서 모듈 안의 함수, 객체를 사용한다.
     3) npm 모듈: npm을 통해서 node_module에 설치하고 사용하는 모듈
         - 원격 배포
-        - 로컬 배포 
-#### 6. npmjs.com(npm registry)에 내 패키지 배포해보기(생략, 하고싶은 사람은 kickscar github에 npm.md 읽어보기)
+        - 로컬 배포
 
-#### 7. helloweb-ex01(서버 어플리케이션 만들기, 프론트는 내일, 맨바닥)
+#### 6. npmjs.com의 npm registry에 내 패키지 배포해보기(생략, 하고싶은 사람은 kickscar github에 npm.md 읽어보기)
 
-#### 8. helloweb-ex02(서버 어플리케이션 만들기, express)
+#### 7. helloweb-ex01: 웹(백엔드,서버) 어플리케이션 만들기, 프론트는 내일, 맨바닥, express 프레임워크 X
+    1) app01: http: core module 기반
+    2) app02: http, fs: core module 기반
+    3) app03: connect, serve-static: npm package 기반
+    4) app04: connect, serve-static, connect-route: npm package 기반
+
+#### 8. helloweb-ex02: 웹(백엔드,서버) 어플리케이션 만들기, express 프레임워크 사용
